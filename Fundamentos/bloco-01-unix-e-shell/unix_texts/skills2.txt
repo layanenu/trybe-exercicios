@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Javascript
+React
+html/css
+React Native
+Angular
