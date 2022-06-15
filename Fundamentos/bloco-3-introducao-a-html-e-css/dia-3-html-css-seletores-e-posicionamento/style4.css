@@ -1,3 +1,23 @@
 div:hover {
     border-style:double;   
 }
+
+div:nth-child(3){
+    background-color: #B39E9B;
+}
+
+div:nth-child(4){
+    background-color: #FFBBB3;
+}
+
+div:nth-child(5){
+    background-color: #C4F9FF;
+}
+
+div:nth-child(6){
+    background-color: #B3A078;
+}
+
+div:nth-child(7){
+    background-color: #FFE8B8;
+}
