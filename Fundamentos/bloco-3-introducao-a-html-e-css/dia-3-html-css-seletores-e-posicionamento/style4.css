@@ -1,3 +1,9 @@
+div{
+    width: 35%;
+    text-align: center;
+    align-items: center;
+}
+
 div:hover {
     border-style:double;   
 }

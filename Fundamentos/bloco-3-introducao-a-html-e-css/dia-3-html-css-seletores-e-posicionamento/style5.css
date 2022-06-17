@@ -1,0 +1,11 @@
+ol li{
+    background-color: yellow;
+}
+
+.numeropar{
+    color: green;
+}
+
+.numeroimpar{
+    text-transform: uppercase;
+}
