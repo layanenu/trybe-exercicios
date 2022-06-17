@@ -10,7 +10,6 @@ ol li{
 .numeroimpar{
     text-transform: uppercase;
     font-weight:bolder;
-
 }
 
 h1, h3{
@@ -24,4 +23,12 @@ h1, h3{
 
 li{
     font-size: 20px;
+}
+
+.fonteazul{
+    color: blue;
+}
+
+.backgroundpink{
+    background-color: pink;
 }
