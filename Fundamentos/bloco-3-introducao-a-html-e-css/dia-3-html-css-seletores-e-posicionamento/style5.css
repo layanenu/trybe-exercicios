@@ -9,3 +9,12 @@ ol li{
 .numeroimpar{
     text-transform: uppercase;
 }
+
+h1, h3{
+    color: red;
+}
+
+.titulo{
+    font-size: 40px;
+    border: 1px black solid;
+}
