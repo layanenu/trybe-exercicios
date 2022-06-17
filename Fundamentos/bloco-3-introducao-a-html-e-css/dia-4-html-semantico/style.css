@@ -6,6 +6,15 @@ ul{
     list-style-type: none;
 }
 
+ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+.premiacao{
+    text-align: center;
+}
+
 h3{
     text-align: center;
 }
