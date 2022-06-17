@@ -4,10 +4,13 @@ ol li{
 
 .numeropar{
     color: green;
+    font-weight:bolder;
 }
 
 .numeroimpar{
     text-transform: uppercase;
+    font-weight:bolder;
+
 }
 
 h1, h3{
@@ -17,4 +20,8 @@ h1, h3{
 .titulo{
     font-size: 40px;
     border: 1px black solid;
+}
+
+li{
+    font-size: 20px;
 }
