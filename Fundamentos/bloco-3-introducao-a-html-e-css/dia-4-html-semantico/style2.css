@@ -1,0 +1,29 @@
+body{
+    margin: 3% 5% 5% 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    background-color: #C5DED9;
+    font-size: 17px;
+}
+
+.barra-nav{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.info-gerais{
+    float: right;
+    width: 25%;
+    background-color: #C5DED9;
+    padding: 1% 2% 1% 2%;
+}
+
+p{
+    width: 60%;
+}
