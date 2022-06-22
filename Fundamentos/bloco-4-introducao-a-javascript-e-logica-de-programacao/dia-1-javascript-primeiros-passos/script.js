@@ -19,15 +19,31 @@
 
 
 //2
-const primeiroNum = 20;
+// const primeiroNum = 20;
+// const segundoNum = 10;
+
+// let resultado;
+
+// if (primeiroNum > segundoNum) {
+//     resultado = 'O primeiro número é maior do que o segundo número'
+// } else if (segundoNum > primeiroNum){
+//     resultado ='O segundo número é maior do que o primeiro número'
+// }
+// console.log(resultado);
+
+//3
+const primeiroNum = 1;
 const segundoNum = 10;
+const terceiroNum = 2;
 
 let resultado;
 
-if (primeiroNum > segundoNum) {
-    resultado = 'O primeiro número é maior do que o segundo número'
-} else if (segundoNum > primeiroNum){
-    resultado ='O segundo número é maior do que o primeiro número'
+if (primeiroNum > segundoNum && primeiroNum > terceiroNum) {
+    resultado = 'O primeiro número é o maior número'
+} else if (segundoNum > primeiroNum && segundoNum > terceiroNum){
+    resultado ='O segundo número é o maior número'
+} else if (terceiroNum > primeiroNum && terceiroNum > segundoNum) {
+    resultado ='O terceiro número é o maior número'
 }
 console.log(resultado);
 
