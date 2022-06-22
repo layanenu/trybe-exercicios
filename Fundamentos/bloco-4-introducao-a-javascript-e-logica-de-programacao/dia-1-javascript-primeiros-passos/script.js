@@ -32,20 +32,34 @@
 // console.log(resultado);
 
 //3
-const primeiroNum = 1;
-const segundoNum = 10;
-const terceiroNum = 2;
+// const primeiroNum = 1;
+// const segundoNum = 10;
+// const terceiroNum = 2;
 
-let resultado;
+// let resultado;
 
-if (primeiroNum > segundoNum && primeiroNum > terceiroNum) {
-    resultado = 'O primeiro número é o maior número'
-} else if (segundoNum > primeiroNum && segundoNum > terceiroNum){
-    resultado ='O segundo número é o maior número'
-} else if (terceiroNum > primeiroNum && terceiroNum > segundoNum) {
-    resultado ='O terceiro número é o maior número'
+// if (primeiroNum > segundoNum && primeiroNum > terceiroNum) {
+//     resultado = 'O primeiro número é o maior número'
+// } else if (segundoNum > primeiroNum && segundoNum > terceiroNum){
+//     resultado ='O segundo número é o maior número'
+// } else if (terceiroNum > primeiroNum && terceiroNum > segundoNum) {
+//     resultado ='O terceiro número é o maior número'
+// }
+// console.log(resultado);
+
+//4
+const numero = '0';
+
+if (numero > 0){
+    console.log('Esse número é positivo')
+} else if(numero < 0){
+    console.log('Esse número é negativo')
+} else if (numero == 0){
+    console.log('Esse número é zero')
+}else{
+    console.log('Esse não é um numero');
 }
-console.log(resultado);
+
 
 // //8
 // const primeiroNum = 3;
