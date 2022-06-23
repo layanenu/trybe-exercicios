@@ -18,7 +18,7 @@
 // console.log('O modulo entre os elementos a e b é ' + modulo);
 
 
-//2
+//QUESTAO 2
 // const primeiroNum = 20;
 // const segundoNum = 10;
 
@@ -31,13 +31,11 @@
 // }
 // console.log(resultado);
 
-//3
+//QUESTAO 3
 // const primeiroNum = 1;
 // const segundoNum = 10;
 // const terceiroNum = 2;
-
 // let resultado;
-
 // if (primeiroNum > segundoNum && primeiroNum > terceiroNum) {
 //     resultado = 'O primeiro número é o maior número'
 // } else if (segundoNum > primeiroNum && segundoNum > terceiroNum){
@@ -47,27 +45,35 @@
 // }
 // console.log(resultado);
 
-//4
-const numero = '0';
+//QUESTAO 4
+// const numero = '0 ';
+// if (numero > 0){
+//     console.log('Esse número é positivo')
+// } else if(numero < 0){
+//     console.log('Esse número é negativo')
+// } else if (numero == 0){
+//     console.log('Esse número é zero')
+// } else{
+//     console.log('Esse não é um numero');
+// }
 
-if (numero > 0){
-    console.log('Esse número é positivo')
-} else if(numero < 0){
-    console.log('Esse número é negativo')
-} else if (numero == 0){
-    console.log('Esse número é zero')
-}else{
-    console.log('Esse não é um numero');
-}
+//QUESTAO 5
+// const primeiroAng = 60;
+// const segundoAng = 60;
+// const terceiroAng = 60;
+// if(primeiroAng + segundoAng + terceiroAng < 180){
+//     console.log('true')
+// } else if (){
+//     console.log('false')
+// } else {
+// }
 
 
-// //8
+//QUESTAO 8
 // const primeiroNum = 3;
 // const segundoNum = 7;
 // const terceiroNum = 9;
-
 // let soma = primeiroNum + segundoNum + terceiroNum
-
 // if (soma % 2 === 0) {
 //     console.log('true')
 // } else {
