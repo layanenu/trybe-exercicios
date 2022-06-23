@@ -1,0 +1,33 @@
+div{
+    width: 35%;
+    text-align: center;
+    align-items: center;
+}
+
+div:hover {
+    border-style:double;   
+}
+
+div:nth-child(3){
+    background-color: #2570DA;
+    font-style: italic;
+}
+
+div:nth-child(4){
+    background-color: #F26E22;
+}
+
+div:nth-child(5){
+    background-color: yellow;
+    height: 70px;
+    font-style: italic;
+}
+
+div:nth-child(6){
+    background-color: brown;
+}
+
+div:nth-child(7){
+    background-color: #FFE8B8;
+    font-style: italic;
+}
