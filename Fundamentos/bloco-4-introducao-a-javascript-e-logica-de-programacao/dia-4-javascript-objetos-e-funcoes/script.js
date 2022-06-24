@@ -31,4 +31,7 @@ console.log('A jogadora '+ player['name'] + ' ' + player['lastName'] + ' tem ' +
 console.log('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo por 6 vezes ' + player.bestInTheWorld);
 console.log('A jogadora ' + player['name'] + ' ' + player['lastName'] + ' foi eleita a melhor do mundo por 6 vezes ' + player['bestInTheWorld']);
 
+//5 - Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
 
+console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro ' + player.medals.silver + ' medalhas de prata.');
+console.log('A jogadora possui ' + player['medals']['golden'] + ' medalhas de ouro ' + player['medals']['silver'] + ' medalhas de prata.');
