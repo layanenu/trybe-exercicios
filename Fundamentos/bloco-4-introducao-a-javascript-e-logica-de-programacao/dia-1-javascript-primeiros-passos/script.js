@@ -64,19 +64,20 @@
 // let degreeAngleA = 65;
 // let degreeAngleB = 100;
 // let degreeAngleC = 15;
+//Aqui declara as variáveis para os angulos
 
-// let sumOfAngles = degreeAngleA + degreeAngleB + degreeAngleC;
+// let sumOfAngles = degreeAngleA + degreeAngleB + degreeAngleC; //Aqui verifica a soma dos angulos, essa soma deve ser 180.
 
-// let allAnglesArePositives = degreeAngleA > 0 && degreeAngleB > 0 && degreeAngleC > 0;
+// let allAnglesArePositives = degreeAngleA > 0 && degreeAngleB > 0 && degreeAngleC > 0; //Aqui define que os angulos devem ser maior que 0.
 
-// if(allAnglesArePositives){
-//   if (sumOfAngles === 180) {
-//     console.log(true);
+// if(allAnglesArePositives){ //Aqui se os angulos forem positivos, 
+//   if (sumOfAngles === 180) { //entra no proximo If que verifica se a soma dos angulos é 180
+//     console.log(true); //se os angulos forem positivos e a soma for 180, imprime true
 //   } else {
-//     console.log(false);
+//     console.log(false); //se não, imprime false
 //   };
-// } else {
-//   console.log('Erro: ângulo inválido');
+// } else { //se os angulos forem numeros negativos ou se a soma nao der 180 imprime erro
+//   console.log('Erro: ângulo inválido'); 
 // }
 
 //QUESTAO 6
