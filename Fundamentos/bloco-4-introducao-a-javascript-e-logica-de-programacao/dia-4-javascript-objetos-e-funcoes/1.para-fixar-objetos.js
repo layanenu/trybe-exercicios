@@ -1,4 +1,4 @@
-//Para fixar
+//Para fixar - OBJETOS
 //1 - Crie um objeto player contendo as variáveis listadas abaixo.
 let name = 'Marta';
 let lastName = 'Silva';
