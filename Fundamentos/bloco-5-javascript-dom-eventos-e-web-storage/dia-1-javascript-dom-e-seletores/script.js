@@ -10,7 +10,10 @@
 
 // document.getElementById("subtitle").innerText = "Alguns personagens: Meilin Lee, Robaire, Miriam Mendelsohn...";
 
-//Usando getElementsByClassName
+//Usando getElementsByClassName e getElementsByTagName
 
 const primeiroParagrafo = document.getElementsByClassName('paragrafo')[0];
 primeiroParagrafo.style.color = "purple";
+
+const subtitle = document.getElementsByTagName('h4')[0];
+subtitle.style.color = "grey";
