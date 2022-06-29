@@ -12,3 +12,5 @@
 
 //Usando getElementsByClassName
 
+const primeiroParagrafo = document.getElementsByClassName('paragrafo')[0];
+primeiroParagrafo.style.color = "purple";
