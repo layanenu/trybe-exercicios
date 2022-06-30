@@ -57,22 +57,32 @@
         */
 
 //QUESTAO 1
-
 function mudaTexto(){
   let descricaoComoMeVejo = document.getElementsByTagName('p')[1];
   descricaoComoMeVejo.innerText = 'Me vejo ganhando muitos dólares hahahaha';
 }
-
 mudaTexto();
 
 //QUESTAO 2
-
 function mudaCorSquareYellow(){
   let squareYellow = document.getElementsByClassName('main-content')[0];
   squareYellow.style.background = 'rgb(76,164,109)';
 }
-
 mudaCorSquareYellow();
+
+//QUESTAO 3
+function mudaCorSquareRed(){
+  let squareRed = document.getElementsByClassName('center-content')[0];
+  squareRed.style.background = 'white';
+}
+mudaCorSquareRed();
+
+//QUESTAO 4
+function corrigeTexto(){
+  let corrigeTexto = document.getElementsByTagName('h1')[0];
+  corrigeTexto.innerText = 'Exercício 5.1 - JavaScript'
+}
+corrigeTexto()
 
 
     </script>
