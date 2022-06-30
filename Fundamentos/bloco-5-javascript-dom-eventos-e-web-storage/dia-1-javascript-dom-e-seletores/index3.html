@@ -87,12 +87,22 @@ corrigeTexto()
 //QUESTAO 5
 function mudaParaMaiusculo(){
  let mudaParaMaiusculo = document.getElementsByTagName('p');
- console.log(mudaParaMaiusculo.length)
  for (let index = 0; index < mudaParaMaiusculo.length; index += 1){
   mudaParaMaiusculo[index].innerText = mudaParaMaiusculo[index].innerText.toUpperCase();
  }
 }
 mudaParaMaiusculo()
+
+//6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+//QUESTAO 6
+function mostraNoConsole(){
+ let mostraNoConsole = document.getElementsByTagName('p');
+ for (let index = 0; index < mostraNoConsole.length; index += 1){
+  console.log(mostraNoConsole[index].innerText);
+ }
+}
+mostraNoConsole()
+
     </script>
   </body>
 </html>
