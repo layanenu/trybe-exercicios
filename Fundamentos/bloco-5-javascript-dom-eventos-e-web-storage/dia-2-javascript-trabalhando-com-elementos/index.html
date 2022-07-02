@@ -24,7 +24,7 @@
   
   // 1. Acesse o elemento elementoOndeVoceEsta.
 
-const elementoOndeVoceEsta = document.querySelector('#elementoOndeVoceEsta');
+const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
 
 // 2. Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
 
@@ -33,6 +33,12 @@ pai.style.color = 'blue';
 
 //3. Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
 
-const primeiroFilhoDoFilho = document.querySelector('#primeiroFilhoDoFilho').innerText = 'Primeiro Filho Do Filho';
+const primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+primeiroFilhoDoFilho.innerText = 'texto para primeiro filho do filho';
+
+//4. Acesse o primeiroFilho a partir de pai.
+
+// const primeiroFilho = pai.firstElementChild;
+
 </script>
 </html>
