@@ -53,7 +53,7 @@ const atencao = elementoOndeVoceEsta.parentNode.parentNode;
 
 //7. Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
 
-const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+// const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
 
 //8. Agora acesse o terceiroFilho a partir de pai.
 
@@ -64,15 +64,26 @@ const terceiroFilhoAgain = pai.children[2];
 //1.Crie um irmão para elementoOndeVoceEsta.
 
 let criaIrmao = document.createElement('section');
+criaIrmao.id = 'irmaoElementoOndeVoceEsta';
 pai.appendChild(criaIrmao);
 
 //2.Crie um filho para elementoOndeVoceEsta.
 
 let criaFilho = document.createElement('section');
+criaFilho.id = 'filhoElementoOndeVoceEsta';
 elementoOndeVoceEsta.appendChild(criaFilho);
 
 //3.Crie um filho para primeiroFilhoDoFilho.
+
+let criaFilhoParaPrimeiroFilhoDoFilho = document.createElement('section');
+criaFilhoParaPrimeiroFilhoDoFilho.id = 'filhoPrimeiroFilhoDoFilho';
+primeiroFilhoDoFilho.appendChild(criaFilhoParaPrimeiroFilhoDoFilho);
+
 //4.A partir desse filho criado, acesse terceiroFilho.
+const terceiroFilho = filhoPrimeiroFilhoDoFilho
+.parentElement // primeiroFilhoDoFilho
+.parentElement // elementoOndeVoceEsta
+.nextElementSibling; // terceiroFilho
 
 </script>
 </html\
