@@ -58,19 +58,24 @@
   <body>
     <script>
       //🚀 1.Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
-      let tagH1 = document.createElement('h1');
+      const tagH1 = document.createElement('h1');
       tagH1.innerText = 'Exercício 5.2 - JavaScript DOM';
       document.body.appendChild(tagH1);
 
       //🚀 2.Adicione a tag main com a classe main-content como filho da tag body;
-      let tagMain = document.createElement('main');
+      const tagMain = document.createElement('main');
       tagMain.className = 'main-content';
       document.body.appendChild(tagMain);
 
-      //🚀 3. Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
-      let tagSection = document.createElement('section');
+      //🚀 3.Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+      const tagSection = document.createElement('section');
       tagSection.className = 'center-content';
-      document.main.appendChild(tagSection);
+      tagMain.appendChild(tagSection);
+
+      //🚀 4.Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+      const tagP = document.createElement('p');
+      tagP.innerText = 'Primeiro parágrafo';
+      tagSection.appendChild(tagP); 
     </script>
   </body>
 </html>
