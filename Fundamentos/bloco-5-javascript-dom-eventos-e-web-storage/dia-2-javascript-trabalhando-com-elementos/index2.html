@@ -94,6 +94,17 @@
       img.className = 'small-image';
       tagSection.appendChild(img);
 
+      //🚀 8.Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... 
+      //como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+      const listaNaoOrdenada = document.createElement('ul'); //cria o elemento ul
+      tagSectionRight.appendChild(listaNaoOrdenada); //insere o elemento ul como filho, nesse caso, da tag section
+      const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+      for (let index in arrayNumbers); { //percorre o array
+        const elementoLi = document.createElement('li'); //cria o elemento li
+        listaNaoOrdenada.appendChild(elementoLi); //insere o elemento li como filho de ul
+        elementoLi.innerHTML = arrayNumbers[index]; //envia cada index para cada elemento li
+        listaNaoOrdenada.appendChild(elementoLi); //envia elemento li para ul (lista nao ordenada)
+      }
     </script>
   </body>
 </html>
