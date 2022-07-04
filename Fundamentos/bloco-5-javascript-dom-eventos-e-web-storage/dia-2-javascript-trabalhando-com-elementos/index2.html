@@ -96,15 +96,22 @@
 
       //🚀 8.Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... 
       //como valores da lista. Essa lista deve ser filha do section criado no passo 6;
-      const listaNaoOrdenada = document.createElement('ul'); //cria o elemento ul
-      tagSectionRight.appendChild(listaNaoOrdenada); //insere o elemento ul como filho, nesse caso, da tag section
+      const elementoUl = document.createElement('ul'); //cria o elemento ul
+      tagSectionRight.appendChild(elementoUl); //envia elemento ul para section
       const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
-      for (let index in arrayNumbers); { //percorre o array
+      for (let num in arrayNumbers) { 
         const elementoLi = document.createElement('li'); //cria o elemento li
-        listaNaoOrdenada.appendChild(elementoLi); //insere o elemento li como filho de ul
-        elementoLi.innerHTML = arrayNumbers[index]; //envia cada index para cada elemento li
-        listaNaoOrdenada.appendChild(elementoLi); //envia elemento li para ul (lista nao ordenada)
+        elementoLi.innerHTML = arrayNumbers[num]; //envia cada index para cada elemento li
+        elementoUl.appendChild(elementoLi); //envia elemento li para ul (lista nao ordenada)
       }
+
+      //🚀 9.Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+      for (let index = 1; index <= 3; index += 1) {
+        const elementoH3 = document.createElement('h3');
+        elementoH3.innerHTML = 'Show ' + index;
+        tagMain.appendChild(elementoH3);
+      }
+      
     </script>
   </body>
 </html>
