@@ -8,3 +8,5 @@ function teste(event){
 }
 
 HREF_LINK.addEventListener('click', teste);
+
+INPUT_CHECKBOX .addEventListener('click', teste);
