@@ -89,3 +89,12 @@ p strong {
     display: block;
   }
 }
+
+@media (max-width: 500px) {
+  p.trick {
+    background-color: cadetblue;
+    display: flex;
+    text-align: center;
+  }
+}
+
